@@ -1,16 +1,25 @@
 ---
 layout: post
-title:  "Design processes in Software Development"
-date:   2015-02-08 10:13:20
-categories: software design, development
+title:  "Welcome to Jekyll!"
+date:   2015-01-27 10:20:49
+categories: jekyll update
 ---
-Design thinking and innovation is flexible enough to permeate every industry, however, it is poorly understand and rarely utilized correctly in the development of new software. Software engineering is a relatively high level discipline that remains hands on, sharing similarities with design which encourages product development through prototyping. Through the formalization of the software processes, creativity and the freedom in developing products is being lost in organizations.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-There is much confusion about what design means for software. The software industry regards design as Human Computer Interaction. In the context of this paper, Design envelops the research, ideation and creation of new products that create value based on much deeper understanding of the overarching problems. Design places the user at the centre while considering the technology and business to create innovative solutions.
-High project failure in the software industry can be attributed to a number of things. Arguably, one of the biggest issues is lack of understanding of the business, user, and technologies which derives from the fact that there are rarely any design processes instilled in organizations.
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Design Thinking and Agile development go hand in hand, as both deal with understanding customers and embrace changing markets.
+Jekyll also offers powerful support for code snippets:
 
-The high number of failed projects in the organization prompted this investigation into what problems are being faced and where the key issues lie. It is quite apparent that the lack of a proper design process has lead to many mistakes and incorrect assumptions based on pre- existing notions of the market.
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-[Read my essay on Design and Development](https://www.dropbox.com/s/oc3ax256a10jkpk/Designprocessesforsoftwaredevelopment.pdf?dl=0 "Design processes in Software Development")
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help

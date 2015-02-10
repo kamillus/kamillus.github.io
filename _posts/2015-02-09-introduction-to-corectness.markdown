@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Software Corectness"
 date:   2015-02-09 21:35:17
-categories: software design, development
+categories: computer science
 ---
 Software correctness is a neat way to tie specifications to code implementation. Correctness by construction helps you be absolutely sure your code performs according to specifications. The computer science construct often used for this is Hoare Triples. This [Microsoft Research Labs Video](https://www.youtube.com/watch?v=spcfzbisBv4) has piqued my interest in the practical aspects of Invariants so I thought I'd give a simple overview of Hoare Triples.
 

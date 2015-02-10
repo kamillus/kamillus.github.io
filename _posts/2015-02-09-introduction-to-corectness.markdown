@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Software Corectness"
+title:  "Introduction to Software Correctness"
 date:   2015-02-09 21:35:17
 categories: computer science
 ---

@@ -25,7 +25,7 @@ Using the [assignment axiom](https://www.dropbox.com/s/oc3ax256a10jkpk/Designpro
 Which results in:
 
 `
-{y + 1 > 5} &#8802; {y > 4}
+{y + 1 > 5} = {y > 4}
 `
 
 This is our weakest predicate P. Of course, this is a fairly trivial example, but I hope it gets you started in predicate logic and hoare triple notation. For more information I recommend reading "What Computing is All About".

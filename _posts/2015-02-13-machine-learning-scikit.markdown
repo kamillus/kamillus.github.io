@@ -10,13 +10,13 @@ How does the computer learn? The [feature](http://en.wikipedia.org/wiki/Feature_
 
 The next part of the program is to run the data through the classifier (which in our case is SVM). The tricky part is to get the right values for gamma. You could experiment with this by using a [test data set](http://en.wikipedia.org/wiki/Test_set) as opposed to your [training set](http://en.wikipedia.org/wiki/Training_set). Once you have this data, the actual classifying is trivial with scikit-learn:
 
-`
-classifier = svm.SVC(gamma=1)
-(features, targets) = profiles.get_classifier_data()
 
-classifier.fit(features, targets)
-predicted = classifier.predict([[data_point.time, data_point.error_count, data_point.distance]])
-`
+    classifier = svm.SVC(gamma=1)
+    (features, targets) = profiles.get_classifier_data()
+    
+    classifier.fit(features, targets)
+    predicted = classifier.predict([[data_point.time, data_point.error_count, data_point.distance]])
+
 
 How could this be improved? I think the first opportunity for improvement is to recognize data clusters automatically using k-means and possibly utilize [principal component analysis](http://en.wikipedia.org/wiki/Principal_component_analysis). That way, every cluster of data will be automatically assigned without first creating user profiles.
 

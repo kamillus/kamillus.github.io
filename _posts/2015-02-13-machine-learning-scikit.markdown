@@ -4,7 +4,6 @@ title:  "Machine learning using scikit-learn"
 date:   2015-02-13 08:44:30
 categories: machine learning, scikit
 ---
-
 Scikit-learn is a fantastic library to solve problems using machine learning and other, more traditional statistical methods. One of the problems I was working on not too long ago was classifying which user is at the front of the computer. I have developed a small [user classifying](https://github.com/kamillus/text_profile) game utilizing an [SVM](http://en.wikipedia.org/wiki/Support_vector_machine). The game asks a user for a bunch of words to create a profile of the user. In the next part of the game, the user types a bunch of words and the computer tries to recognize who is at the front of the keyboard.
 
 How does the computer learn? The [feature](http://en.wikipedia.org/wiki/Feature_%28machine_learning%29) generation is accomplished when the user is asked for their name, then presented with a series of words from a dictionary and finally asked to type words as they appear. The features that is recorded is the typing speed, number of errors, and corrections made to typed words.

@@ -1,41 +1,16 @@
 ---
 layout: post
-title:  "Introduction to Software Correctness"
-date:   2015-02-09 21:35:17
-categories: computer science
+title:  "Design processes in Software Development"
+date:   2015-02-08 10:13:20
+categories: software design, development
 ---
-Software correctness is a neat way to tie specifications to code implementation. Correctness by construction helps you be absolutely sure your code performs according to specifications. The computer science construct often used for this is Hoare Triples. This [Microsoft Research Labs Video](https://www.youtube.com/watch?v=spcfzbisBv4) has piqued my interest in the practical aspects of Invariants so I thought I'd give a simple overview of Hoare Triples.
+Design thinking and innovation is flexible enough to permeate every industry, however, it is poorly understand and rarely utilized correctly in the development of new software. Software engineering is a relatively high level discipline that remains hands on, sharing similarities with design which encourages product development through prototyping. Through the formalization of the software processes, creativity and the freedom in developing products is being lost in organizations.
 
-Hoare triples are usually written in the format of {P}S{Q} where P is the precondition and Q is the postcondition. Let's take for example:
+There is much confusion about what design means for software. The software industry regards design as Human Computer Interaction. In the context of this paper, Design envelops the research, ideation and creation of new products that create value based on much deeper understanding of the overarching problems. Design places the user at the centre while considering the technology and business to create innovative solutions.
+High project failure in the software industry can be attributed to a number of things. Arguably, one of the biggest issues is lack of understanding of the business, user, and technologies which derives from the fact that there are rarely any design processes instilled in organizations.
 
-`
-{P}
-x := y + 1
-{x > 5}
-`
+Design Thinking and Agile development go hand in hand, as both deal with understanding customers and embrace changing markets.
 
-The goal is to find the weakest precondition that creates a correct program.
+The high number of failed projects in the organization prompted this investigation into what problems are being faced and where the key issues lie. It is quite apparent that the lack of a proper design process has lead to many mistakes and incorrect assumptions based on pre- existing notions of the market.
 
-Using the [assignment axiom](https://www.dropbox.com/s/oc3ax256a10jkpk/Designprocessesforsoftwaredevelopment.pdf?dl=0) we substitute the precondition for the postcondtion, pretty simple:
-
-`
-{x > 5}[x := y + 1]
-`
-
-Which results in:
-
-`
-{y + 1 > 5} = {y > 4}
-`
-
-Therefore our complete listing is now:
-
-`
-{y > 4}
-x := y + 1
-{x > 5}
-`
-
-We can deduce that in order for x to be greater than 5 at the end of our listing, y has to be greater than 4 before our code executes.
-
-This is our weakest predicate P. Of course, this is a fairly trivial example, but I hope it gets you started in predicate logic and hoare triple notation. For more information I recommend reading "What Computing is All About".
+[Read my essay on Design and Development](https://www.dropbox.com/s/oc3ax256a10jkpk/Designprocessesforsoftwaredevelopment.pdf?dl=0 "Design processes in Software Development")

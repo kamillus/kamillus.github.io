@@ -4,7 +4,7 @@ title:  "Machine learning using scikit-learn"
 date:   2015-02-13 08:44:30
 categories: machine learning, scikit
 ---
-Scikit-learn is a fantastic library to solve problems using machine learning and other, more traditional statistical methods in the area of Data Science. In this post I'm outlining why machine learning is important and a demonstrating a simple machine learning problem and how to solve it.
+Scikit-learn is a fantastic library to solve problems using machine learning and other, more traditional statistical methods in the area of Data Science. In this post I'm outlining why machine learning is important, demonstrating a simple machine learning problem and how to solve it.
 
 Why should you care? Data science is becoming more and more relevant with the growth of big data, and more autononomous systems (ex. [recommender systems](http://en.wikipedia.org/wiki/Recommender_system), [pattern recognition](http://en.wikipedia.org/wiki/Pattern_recognition)). Machine learning, specifically, is applicable to many fields including finance (ex. Detecing credit card fraud), medical (ex. Classifying patient cancer), entertainment (ex. Chess playing bot). The number of careers involving machine learning will steadily increase (there is evidence it's already [happening](http://www.indeed.com/jobtrends?q=machine+learning&l=&relative=1)) and the supporting technologies are becoming more prolific (Hadoop, scikit-learn, Mahout etc.). 
 

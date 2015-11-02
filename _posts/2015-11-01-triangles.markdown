@@ -2,12 +2,12 @@
 layout: post
 title:  "Sierpinski Triangles.. Square?"
 date:   2015-11-01 22:52:20
-categories: algorithms, recursion
+categories: algorithms,recursion
 ---
 
 Being bored is a powerful motivator for doing cool stuff. I was reading about Sierpinski's triangles and decided to do my own spin on them. Using js with tail end recursion and the html canvas element I was able to accomplish the following:
 
-<img src="images/output.png">
+<img src="/images/output.png">
 
 The code is fairly straightforward, however, I will have to admit that getting the positioning right in my head was a little bit of a challenge.
 

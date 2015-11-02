@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sierpinski Triangles.. Square?"
-date:   2015-02-08 10:13:20
+date:   2015-11-01 22:52:20
 categories: algorithms, recursion
 ---
 

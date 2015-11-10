@@ -4,7 +4,7 @@ title:  "Using hadoop with python"
 date:   2015-11-09 21:44:20
 categories: hadoop, python, mapreduce
 ---
-Hadoop is a powerful framework accomodating distributed processing through map/reduce jobs. Hadoop comes with Java api's, but how do you use it with python, ruby, or other languages? As it turns out, you can use other languages with Hadoop by utilizing piping (if you know unix piping, then this will seem familiar).
+Hadoop is a powerful framework accomodating distributed processing through map/reduce jobs. Hadoop comes with Java api's, but how do you use it with python, ruby, or other languages? As it turns out, you can use other languages with Hadoop by utilizing the streaming library Hadoop provides (if you know unix piping, then this will seem familiar).
 
 ## Set up ##
 
@@ -64,3 +64,7 @@ Now, we can run the following to execute our job:
 Alternatively, use pipes to test your code:
 
 	cat students.txt | python map.py | sort | python reduce.py
+	
+	a1 average: 	80
+	a2 average: 	65
+	a3 average: 	50

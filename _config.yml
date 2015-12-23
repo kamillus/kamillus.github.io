@@ -1,7 +1,7 @@
 # Site settings
 title: kamil.ca blog
 email: contact at kamil.ca
-main_url: kamil.ca
+main_url: http://kamil.ca
 description: > # this means to ignore newlines until "baseurl:"
   Software Development, Architecture and Computer Science things.
 baseurl: "" # the subpath of your site, e.g. /blog/

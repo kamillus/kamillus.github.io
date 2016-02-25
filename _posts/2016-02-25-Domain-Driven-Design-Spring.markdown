@@ -2,7 +2,7 @@
 layout: post
 title:  "Domain Driven Design with the Spring Framework"
 date:   2016-02-25 18:44:30
-categories: software design development, DDD
+categories: software design development DDD
 ---
 
 With the advent of ORMs in modern programming tools, developers have been able to create relationships between objects rapidly, however, at a cost. The cost of ORM is the creation of [anemic models](http://www.martinfowler.com/bliki/AnemicDomainModel.html). Using Hibernate often, I have encounted the issue of anemic models and decided to outline how to mitigate this scourge before the domain expands!

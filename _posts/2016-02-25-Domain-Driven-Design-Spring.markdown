@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Domain Driven Design in the Spring Framework"
+title:  "Domain Driven Design with the Spring Framework"
 date:   2016-02-25 18:44:30
 categories: software design, development, DDD
 ---

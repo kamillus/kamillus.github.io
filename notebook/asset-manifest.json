@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.412e8f70.chunk.js",
-    "app.js.map": "/static/js/app.412e8f70.chunk.js.map",
-    "runtime~app.js": "/static/js/runtime~app.44ddfa1e.js",
-    "runtime~app.js.map": "/static/js/runtime~app.44ddfa1e.js.map",
-    "static/js/2.5a5bb874.chunk.js": "/static/js/2.5a5bb874.chunk.js",
-    "static/js/2.5a5bb874.chunk.js.map": "/static/js/2.5a5bb874.chunk.js.map",
+    "app.js": "/static/js/app.30aaf5cd.chunk.js",
+    "app.js.map": "/static/js/app.30aaf5cd.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.5737d427.js",
+    "runtime~app.js.map": "/static/js/runtime~app.5737d427.js.map",
+    "static/js/2.42d4ac45.chunk.js": "/static/js/2.42d4ac45.chunk.js",
+    "static/js/2.42d4ac45.chunk.js.map": "/static/js/2.42d4ac45.chunk.js.map",
     "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/./fonts/Feather.ttf",
     "fonts/FontAwesome.ttf": "/./fonts/FontAwesome.ttf",
@@ -24,8 +24,8 @@
     "static/media/star.png": "/static/media/star.004c2bbb.png"
   },
   "entrypoints": [
-    "static/js/runtime~app.44ddfa1e.js",
-    "static/js/2.5a5bb874.chunk.js",
-    "static/js/app.412e8f70.chunk.js"
+    "static/js/runtime~app.5737d427.js",
+    "static/js/2.42d4ac45.chunk.js",
+    "static/js/app.30aaf5cd.chunk.js"
   ]
 }

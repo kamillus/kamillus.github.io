@@ -1,0 +1,31 @@
+{
+  "files": {
+    "app.js": "/static/js/app.412e8f70.chunk.js",
+    "app.js.map": "/static/js/app.412e8f70.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.44ddfa1e.js",
+    "runtime~app.js.map": "/static/js/runtime~app.44ddfa1e.js.map",
+    "static/js/2.5a5bb874.chunk.js": "/static/js/2.5a5bb874.chunk.js",
+    "static/js/2.5a5bb874.chunk.js.map": "/static/js/2.5a5bb874.chunk.js.map",
+    "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/./fonts/FontAwesome.ttf",
+    "fonts/Foundation.ttf": "/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/./fonts/SimpleLineIcons.ttf",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "static/media/bell.png": "/static/media/bell.a7b9dc9d.png",
+    "static/media/black-1072366_1920.jpg": "/static/media/black-1072366_1920.fb5dacb7.jpg",
+    "static/media/heart.png": "/static/media/heart.2327736b.png",
+    "static/media/rocket.png": "/static/media/rocket.51671417.png",
+    "static/media/star.png": "/static/media/star.004c2bbb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.44ddfa1e.js",
+    "static/js/2.5a5bb874.chunk.js",
+    "static/js/app.412e8f70.chunk.js"
+  ]
+}

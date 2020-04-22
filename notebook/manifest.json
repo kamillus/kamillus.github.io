@@ -4,5 +4,5 @@
   "lang": "en",
   "name": "ClinicalNotebook",
   "short_name": "ClinicalNotebook",
-  "start_url": "http://kamillus.github.io/notebook/?utm_source=web_app_manifest"
+  "start_url": "https://kamillus.github.io/notebook/?utm_source=web_app_manifest"
 }

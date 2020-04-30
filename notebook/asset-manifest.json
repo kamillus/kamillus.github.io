@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.f3b14091.chunk.js",
-    "app.js.map": "/static/js/app.f3b14091.chunk.js.map",
+    "app.js": "/static/js/app.42426c75.chunk.js",
+    "app.js.map": "/static/js/app.42426c75.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.5737d427.js",
     "runtime~app.js.map": "/static/js/runtime~app.5737d427.js.map",
-    "static/js/2.30068606.chunk.js": "/static/js/2.30068606.chunk.js",
-    "static/js/2.30068606.chunk.js.map": "/static/js/2.30068606.chunk.js.map",
+    "static/js/2.73e3806b.chunk.js": "/static/js/2.73e3806b.chunk.js",
+    "static/js/2.73e3806b.chunk.js.map": "/static/js/2.73e3806b.chunk.js.map",
     "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/./fonts/Feather.ttf",
     "fonts/FontAwesome.ttf": "/./fonts/FontAwesome.ttf",
@@ -20,12 +20,13 @@
     "static/media/bell.png": "/static/media/bell.a7b9dc9d.png",
     "static/media/black-1072366_1920.jpg": "/static/media/black-1072366_1920.fb5dacb7.jpg",
     "static/media/heart.png": "/static/media/heart.2327736b.png",
+    "static/media/ontario.jpg": "/static/media/ontario.91d75b1b.jpg",
     "static/media/rocket.png": "/static/media/rocket.51671417.png",
     "static/media/star.png": "/static/media/star.004c2bbb.png"
   },
   "entrypoints": [
     "static/js/runtime~app.5737d427.js",
-    "static/js/2.30068606.chunk.js",
-    "static/js/app.f3b14091.chunk.js"
+    "static/js/2.73e3806b.chunk.js",
+    "static/js/app.42426c75.chunk.js"
   ]
 }

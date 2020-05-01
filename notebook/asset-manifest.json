@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.0565daf8.chunk.js",
-    "app.js.map": "/static/js/app.0565daf8.chunk.js.map",
+    "app.js": "/static/js/app.22ec9179.chunk.js",
+    "app.js.map": "/static/js/app.22ec9179.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.5737d427.js",
     "runtime~app.js.map": "/static/js/runtime~app.5737d427.js.map",
-    "static/js/2.2d02aac1.chunk.js": "/static/js/2.2d02aac1.chunk.js",
-    "static/js/2.2d02aac1.chunk.js.map": "/static/js/2.2d02aac1.chunk.js.map",
+    "static/js/2.99c9fbf4.chunk.js": "/static/js/2.99c9fbf4.chunk.js",
+    "static/js/2.99c9fbf4.chunk.js.map": "/static/js/2.99c9fbf4.chunk.js.map",
     "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/./fonts/Feather.ttf",
     "fonts/FontAwesome.ttf": "/./fonts/FontAwesome.ttf",
@@ -26,7 +26,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.5737d427.js",
-    "static/js/2.2d02aac1.chunk.js",
-    "static/js/app.0565daf8.chunk.js"
+    "static/js/2.99c9fbf4.chunk.js",
+    "static/js/app.22ec9179.chunk.js"
   ]
 }

@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/notebook/static/media/black-1072366_1920.fb5dacb7.jpg"
   },
   {
-    "revision": "48c7ed4e7da9792af288a60d7242d615",
-    "url": "/notebook/expo-service-worker.js"
-  },
-  {
     "revision": "d0c694b562b2208635f250762cd7fc79",
     "url": "/notebook/serve.json"
+  },
+  {
+    "revision": "48c7ed4e7da9792af288a60d7242d615",
+    "url": "/notebook/expo-service-worker.js"
   },
   {
     "revision": "8d6f445bdac8e15b055cdd9dc7b92eea",

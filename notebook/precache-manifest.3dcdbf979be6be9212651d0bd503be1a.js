@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "86d5424dc07172c59b1e",
-    "url": "/notebook/static/js/app.1877a060.chunk.js"
+    "revision": "1c233467716b131a0a18",
+    "url": "/notebook/static/js/app.f28bb0ba.chunk.js"
   },
   {
     "revision": "d5d849d733e95b8e59f4",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/notebook/expo-service-worker.js"
   },
   {
-    "revision": "3529e5cc173ff73566ecceb306651ea0",
+    "revision": "23c3422f07fd5bea57db1edee9d0e302",
     "url": "/notebook/index.html"
   },
   {

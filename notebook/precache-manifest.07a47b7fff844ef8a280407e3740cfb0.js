@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/notebook/static/media/MedicalOrderSheet-1.492edd00.jpg"
   },
   {
-    "revision": "48c7ed4e7da9792af288a60d7242d615",
-    "url": "/notebook/expo-service-worker.js"
-  },
-  {
     "revision": "d0c694b562b2208635f250762cd7fc79",
     "url": "/notebook/serve.json"
+  },
+  {
+    "revision": "48c7ed4e7da9792af288a60d7242d615",
+    "url": "/notebook/expo-service-worker.js"
   },
   {
     "revision": "6636acf42c7ccd88b415b0d0a53f0bd0",

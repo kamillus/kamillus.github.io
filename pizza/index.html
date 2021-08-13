@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+
+    <style>
+      canvas {
+        background-image: url(pizza.png);
+      }
+    </style>
+
+    <script>
+      $( document ).ready(function() {
+        $( "#pineapple" ).click(function() {
+          draw_fruit("pineapple")
+        });
+
+        $( "#kiwi" ).click(function() {
+          draw_fruit("kiwi")
+        });
+
+        $( "#other" ).click(function() {
+          alert( "There are no other ingredients.. work with what you got" );
+        });
+      });
+
+      //really, no other object other than fruit is allowed
+      function draw_fruit(fruit) {
+        img = new Image();
+          img.src = fruit + '.png';
+          context = $('#pizza')[0].getContext("2d");
+
+          x = 100+ Math.floor(Math.random() * 500);
+          y = 100+ Math.floor(Math.random() * 500);
+
+          width = 50 + Math.floor(Math.random() * 20);
+          height = 50 + Math.floor(Math.random() * 20);
+
+          context.drawImage(img, x,y, width, height)
+      }
+    </script>
+  </head>
+
+
+
+  <body>
+    <h1>Pizza Maker </h1>
+    <canvas width="800" height="800" id="pizza"></canvas>
+
+    <button type="button" id="pineapple">Add pineapple</button>
+    <button type="button" id="kiwi">Add kiwi</button>
+    <button type="button" id="other">Other</button>
+
+    <img src="pineapple.png" style="display:none"/>
+    <img src="kiwi.png"  style="display:none"/>
+  </body>
+</html>
